@@ -1,0 +1,57 @@
+@charset "UTF-8"; 
+
+@media screen and (max-width: 960px) {
+    html{
+        font-size: 21px;
+    }
+}
+@media screen and (max-width: 760px) {
+   html{
+        font-size: 18px;
+    }
+    .popbox-inside h2.MsgTitle {
+        padding: 3% 0;
+    }
+}
+@media screen and (max-width: 680px) {
+    .award-img li .item-tip{
+        width: 290%;
+    }
+}
+@media screen and (max-width: 540px) {
+    html{
+        font-size: 14px;
+    }
+
+    .task .award-img{
+        width: 56%;
+        display: inline-block;
+        margin-top:9%;
+    }
+    .popbox-inside h2.MsgTitle {
+        padding: 1% 0;
+    }
+     .popbox-inside {
+        padding: 7% 0 5%;
+    }
+    .dialogButtons a {
+        padding: 2% 0 4%;
+    }
+}
+@media screen and (max-width: 480px) {
+     .award-img li .item-tip{
+        width: 330%;
+    }
+}
+@media screen and (max-width: 420px) {
+    html{
+        font-size: 12px;
+    }
+    .popbox-inside h2.MsgTitle {
+        padding: 0;
+    }
+    .popup-box {
+        width: 80%;
+    }
+  
+}
